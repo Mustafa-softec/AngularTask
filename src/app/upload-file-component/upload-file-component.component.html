@@ -1,0 +1,8 @@
+<div class="uploder-container">
+
+<a href="#"><img type="image" [src]="url" (click)="file.click()" alt="Submit" width="200" height="200"></a><br/>
+<input hidden type="file" accept="image/*" #file (change)='onFileChoosed($event)'/>
+<button class="horizontal-center">Upload</button>
+<p>{{message}}</p><br/>
+
+</div>
