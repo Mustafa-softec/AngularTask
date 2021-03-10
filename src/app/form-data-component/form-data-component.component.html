@@ -1,0 +1,40 @@
+<form [formGroup]="dataForm">
+    <div formGroupName="name">
+        <label for="fName">first name<span class="red-star">*</span></label>
+        <input id="fName" formControlName="firstName">
+        <label for="mName">last name</label>
+        <input id="mName" formControlName="middleName">
+        <label for="lName">last name</label>
+        <input id="lName" formControlName="lastName">
+    </div>
+    <div class="form-group">
+        <label for="code">Code<span class="red-star">*</span></label>
+        <input id="code"  formControlName="code">
+    </div>
+    <div>
+        <select>
+            <option>Select student grade</option>
+            <option *ngFor="let gr of grades" [value]="gr">{{gr}}</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div class="form-group has-danger">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<pre>{{dataForm.value | json}}</pre>

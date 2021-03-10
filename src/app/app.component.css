@@ -1,0 +1,10 @@
+#controls{
+    width: auto;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .control{
+        display: inline-block;
+        margin: 20px;
+     }
