@@ -1,11 +1,13 @@
 
   <div id="controls">
 
-      <app-upload-file-component class="control" ></app-upload-file-component>
+    <app-upload-file-component class="control" ></app-upload-file-component>
 
-      <app-form-data-component class="control"></app-form-data-component>
-
-
+    <app-form-data-component [latLng]='latLng' class="control"></app-form-data-component>
+        
+  </div>
+  <div>
+    <app-map-component class="control" (mapClick)='onMapClick($event)'></app-map-component>
   </div>
 
 

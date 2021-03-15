@@ -35,6 +35,18 @@
           <option>5</option>
         </select>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div>
+        <label>pick-up  </label>
+        <input disabled formControlName="pickupLat" placeholder="lat">
+        <input disabled formControlName="pickupLng" placeholder="lng">
+        <img width="30" height="30" src="/assets/pin_ico.jpeg" (click)='onPickPickup($event)'/>
+      </div>
+      <div>
+        <label>drop-off  </label>
+        <input disabled formControlName="dropoffLat" placeholder="lat">
+        <input disabled formControlName="dropoffLng" placeholder="lng">
+        <img width="30" height="30" src="/assets/pin_ico.jpeg" (click)='onPickDropOff($event)'/>
+      </div>
+      <button type="submit" class="btn btn-primary" >Submit</button>
 </form>
 <pre>{{dataForm.value | json}}</pre>
