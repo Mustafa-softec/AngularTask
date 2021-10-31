@@ -1,3 +1,24 @@
+# Angular Tips
+## 1- typeScript features:
+
+  a- static types => set data types for varaibles 
+  b- interfaces
+  c- class properties
+  d- public/privet accesibility
+
+
+ ---------------------------------------
+
+ ## 2- angular component hierarchy  
+
+   a- a tree structure stsrts with root componnent
+   b- angular modules are a container to group all componnents 
+   c- browser loads a modules with all its comppponents
+   d- componnents, pipes and directive are regiterd and available for amodule
+   e- services or providers are registered in root injector so they are avalibels acroos angular modules
+
+
+
 # MTask
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
