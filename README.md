@@ -1,4 +1,5 @@
 # Angular Tips
+
 ## 1- typeScript features:
 
   a- static types => set data types for varaibles 
@@ -11,13 +12,13 @@
 
  ## 2- angular component hierarchy  
 
-   a- a tree structure stsrts with root componnent
-   b- angular modules are a container to group all componnents 
-   c- browser loads a modules with all its comppponents
+   a- a tree structure starts with the root component
+   b- angular modules are a container to group all components 
+   c- browser loads modules with all its components
    d- componnents, pipes and directive are regiterd and available for amodule
-   e- services or providers are registered in root injector so they are avalibels acroos angular modules
+   e- services or providers are registered in root injector so they are avalibels across angular modules
 
-
+---------------------------------------
 
 # MTask
 
