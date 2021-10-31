@@ -12,11 +12,11 @@
 
  ## 2- angular component hierarchy  
 
-   a- a tree structure starts with the root component
-   b- angular modules are a container to group all components 
-   c- browser loads modules with all its components
-   d- componnents, pipes and directive are regiterd and available for amodule
-   e- services or providers are registered in root injector so they are avalibels across angular modules
+   - a tree structure starts with the root component
+   - angular modules are a container to group all components 
+   - browser loads modules with all its components
+   - componnents, pipes and directive are regiterd and available for amodule
+   - services or providers are registered in root injector so they are avalibels across angular modules
 
 ---------------------------------------
 
