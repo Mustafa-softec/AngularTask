@@ -2,10 +2,10 @@
 
 ## 1- typeScript features:
 
-  a- static types => set data types for varaibles 
-  b- interfaces
-  c- class properties
-  d- public/privet accesibility
+  - static types => set data types for varaibles 
+  - interfaces
+  - class properties
+  - public/privet accesibility
 
 
  ---------------------------------------
