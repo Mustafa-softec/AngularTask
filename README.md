@@ -20,6 +20,14 @@
 
 ---------------------------------------
 
+# Binding
+
+## 1- one way binding
+
+bind object from the component to html template 
+ex:
+ <h2>{{object.name}}</h2>
+
 # MTask
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
